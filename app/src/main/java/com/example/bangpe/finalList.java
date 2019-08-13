@@ -22,6 +22,7 @@ public class finalList extends AppCompatActivity {
         wang.add(new Data("8 / 14","아 씨~발 방학 얼마 안남았노"));
         wang.add(new Data("8 / 14","아 씨~발 방학 얼마 안남았노"));
         wang.add(new Data("8 / 14","아 씨~발 방학 얼마 안남았노"));
+        wang.add(new Data("8 / 15","오늘은 광복절"));
         mAdapter=new YasuoAdapter(wang,getApplicationContext());
         list.setAdapter(mAdapter);
     }
