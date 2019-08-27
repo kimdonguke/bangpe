@@ -20,15 +20,40 @@
         android:layout_height="match_parent"
         android:fastScrollEnabled="true"
         android:layout_marginVertical="70dp"
-        android:id="@+id/finalList">
+        android:id="@+id/finalList"
+        android:stackFromBottom="true"
+        >
 
     </ListView>
+
     <EditText
+        android:id="@+id/howMuch"
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        tools:layout_editor_absoluteY="661dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:id="@+id/howMuch"/>
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="70dp"
+       />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        app:layout_constraintLeft_toRightOf="@+id/howMuch"
+        app:layout_constraintTop_toBottomOf="@id/finalList"
+        android:id="@+id/btn_income"
+        android:text="수입"
+        android:background="#64DD17"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_outcome"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:background="#D50000"
+        android:text="지출"
+        android:textSize="17sp"
+        app:layout_constraintLeft_toRightOf="@+id/howMuch"
+        app:layout_constraintTop_toBottomOf="@id/btn_income" />
 
 
 </android.support.constraint.ConstraintLayout>

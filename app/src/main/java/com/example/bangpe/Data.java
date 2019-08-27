@@ -22,6 +22,7 @@ public class Data {
     }
 
     public Data(String date, String content) {
+        
         this.date = date;
         this.content = content;
     }
