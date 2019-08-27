@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Calender"></activity>
-        <activity android:name=".SubActivity" />
         <activity android:name=".finalList" />
         <activity android:name=".MainActivity">
             <intent-filter>

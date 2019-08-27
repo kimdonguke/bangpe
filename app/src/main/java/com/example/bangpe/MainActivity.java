@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         gotoSub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,SubActivity.class);
+                Intent intent=new Intent(MainActivity.this,finalList.class);
                 startActivity(intent);
             }
         });
